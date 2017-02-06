@@ -13,9 +13,12 @@ namespace JogoDesktop
 {
     public partial class frmInicial : Form
     {
-        public frmInicial()
+        public int id_jogador_banco;
+        public frmInicial(int id_jogador)
         {
             InitializeComponent();
+
+            id_jogador_banco = id_jogador;
         }
 
         private void txtNome_Enter(object sender, EventArgs e)
