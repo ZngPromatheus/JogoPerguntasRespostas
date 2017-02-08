@@ -11,23 +11,22 @@ using System.Windows.Forms;
 
 namespace JogoDesktop
 {
-    public partial class Pergunta1 : Form
+    public partial class Pergunta3 : Form
     {
         public int id_jogador_banco;
-        public Pergunta1(int id_jogador)
+        public Pergunta3(int id_jogador)
         {
             InitializeComponent();
 
             id_jogador_banco = id_jogador;
-            
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void rdbResposta3_CheckedChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnProxima_Click(object sender, EventArgs e)
             //inicio
         {
             if (rdbResposta4.Checked == true)
@@ -48,11 +47,13 @@ namespace JogoDesktop
 
                         if (comando.ExecuteNonQuery() == 1)
                         {
+                            
                             MessageBox.Show("Salvei");
                             this.Close();
+                            
                         }
 
-                        
+
 
                         MessageBox.Show("O id inserido foi: " + id_jogador_banco);
                     }
