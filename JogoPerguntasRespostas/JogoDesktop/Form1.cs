@@ -73,6 +73,7 @@ namespace JogoDesktop
                             p2.ShowDialog();
                             Pergunta3 p3 = new Pergunta3(id_jogador);
                             p3.ShowDialog();
+
                             Pergunta4 p4 = new Pergunta4(id_jogador);
                             p4.ShowDialog();
                         }

@@ -41,7 +41,7 @@ namespace JogoDesktop
                     {
                         comando.Parameters.AddWithValue("pergunta", lblPergunta.Text);
                         comando.Parameters.AddWithValue("resposta_correta", rdbResposta4.Text);
-                        comando.Parameters.AddWithValue("id_Jogador", id_jogador_banco);
+                        comando.Parameters.AddWithValue("tb_Jogador", id_jogador_banco);
                         conexao.Open();
                         comando.ExecuteNonQuery();
 

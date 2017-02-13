@@ -28,11 +28,101 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnProxima = new System.Windows.Forms.Button();
+            this.rdbResposta4 = new System.Windows.Forms.RadioButton();
+            this.rdbResposta3 = new System.Windows.Forms.RadioButton();
+            this.rdbResposta2 = new System.Windows.Forms.RadioButton();
+            this.rdbResposta1 = new System.Windows.Forms.RadioButton();
+            this.lblPergunta = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // btnProxima
+            // 
+            this.btnProxima.Location = new System.Drawing.Point(158, 266);
+            this.btnProxima.Name = "btnProxima";
+            this.btnProxima.Size = new System.Drawing.Size(143, 45);
+            this.btnProxima.TabIndex = 12;
+            this.btnProxima.Text = "Próxima pergunta";
+            this.btnProxima.UseVisualStyleBackColor = true;
+            // 
+            // rdbResposta4
+            // 
+            this.rdbResposta4.AutoSize = true;
+            this.rdbResposta4.Location = new System.Drawing.Point(89, 220);
+            this.rdbResposta4.Name = "rdbResposta4";
+            this.rdbResposta4.Size = new System.Drawing.Size(141, 17);
+            this.rdbResposta4.TabIndex = 11;
+            this.rdbResposta4.TabStop = true;
+            this.rdbResposta4.Text = "Você não sabe  nem eu.";
+            this.rdbResposta4.UseVisualStyleBackColor = true;
+            // 
+            // rdbResposta3
+            // 
+            this.rdbResposta3.AutoSize = true;
+            this.rdbResposta3.Location = new System.Drawing.Point(89, 187);
+            this.rdbResposta3.Name = "rdbResposta3";
+            this.rdbResposta3.Size = new System.Drawing.Size(64, 17);
+            this.rdbResposta3.TabIndex = 10;
+            this.rdbResposta3.TabStop = true;
+            this.rdbResposta3.Text = "Filosofo.";
+            this.rdbResposta3.UseVisualStyleBackColor = true;
+            // 
+            // rdbResposta2
+            // 
+            this.rdbResposta2.AutoSize = true;
+            this.rdbResposta2.Location = new System.Drawing.Point(89, 152);
+            this.rdbResposta2.Name = "rdbResposta2";
+            this.rdbResposta2.Size = new System.Drawing.Size(78, 17);
+            this.rdbResposta2.TabIndex = 9;
+            this.rdbResposta2.TabStop = true;
+            this.rdbResposta2.Text = "Presidente.";
+            this.rdbResposta2.UseVisualStyleBackColor = true;
+            // 
+            // rdbResposta1
+            // 
+            this.rdbResposta1.AutoSize = true;
+            this.rdbResposta1.Location = new System.Drawing.Point(89, 120);
+            this.rdbResposta1.Name = "rdbResposta1";
+            this.rdbResposta1.Size = new System.Drawing.Size(80, 17);
+            this.rdbResposta1.TabIndex = 8;
+            this.rdbResposta1.TabStop = true;
+            this.rdbResposta1.Text = "Empresario.";
+            this.rdbResposta1.UseVisualStyleBackColor = true;
+            // 
+            // lblPergunta
+            // 
+            this.lblPergunta.AutoSize = true;
+            this.lblPergunta.Location = new System.Drawing.Point(86, 52);
+            this.lblPergunta.Name = "lblPergunta";
+            this.lblPergunta.Size = new System.Drawing.Size(88, 13);
+            this.lblPergunta.TabIndex = 7;
+            this.lblPergunta.Text = "Quem é o Irineu?";
+            // 
+            // Pergunta4
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(386, 362);
+            this.Controls.Add(this.btnProxima);
+            this.Controls.Add(this.rdbResposta4);
+            this.Controls.Add(this.rdbResposta3);
+            this.Controls.Add(this.rdbResposta2);
+            this.Controls.Add(this.rdbResposta1);
+            this.Controls.Add(this.lblPergunta);
+            this.Name = "Pergunta4";
             this.Text = "Pergunta4";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnProxima;
+        private System.Windows.Forms.RadioButton rdbResposta4;
+        private System.Windows.Forms.RadioButton rdbResposta3;
+        private System.Windows.Forms.RadioButton rdbResposta2;
+        private System.Windows.Forms.RadioButton rdbResposta1;
+        private System.Windows.Forms.Label lblPergunta;
     }
 }
